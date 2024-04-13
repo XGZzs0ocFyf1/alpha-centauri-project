@@ -42,6 +42,7 @@ const RegistrationComponent: React.FC = () => {
 
   return (
     <div className="form_wrapper">
+      <h2 className="form_title">Login form</h2>
       <form onSubmit={handleSubmit}>
         <div className="form_field">
           <label htmlFor="name" className="block text-gray-700 font-medium">
@@ -71,20 +72,7 @@ const RegistrationComponent: React.FC = () => {
             required
           />
         </div>
-        {/* <div className="form_field">
-          <label htmlFor="email" className="block text-gray-700 font-medium">
-            Email:
-          </label>
-          <input
-            type="email"
-            id="email"
-            name="email"
-            value={formData.email}
-            onChange={handleChange}
-            className="mt-1 p-2 w-full border rounded-md focus:outline-none focus:border-blue-500"
-            required
-          />
-        </div> */}
+   
         <button
           type="submit"
           className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600 focus:outline-none"

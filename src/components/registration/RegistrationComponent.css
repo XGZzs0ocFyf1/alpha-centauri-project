@@ -2,11 +2,15 @@
 .form_wrapper{
     border: solid 2px rgb(22, 21, 102);
     border-radius: 20px;
-    /* background-color:rgb(170, 144, 144); */
     padding: 100px;
 }
 .form_field{
  padding: 10px;
+ box-align: left;
+}
+
+.ff_content{
+    align-items: left;
 }
 
 input {
@@ -16,4 +20,10 @@ box-shadow: 3px 3px 5px rgb(50, 58, 68);
 
 label {
     padding: 2px;
+}
+
+label > span{
+	display: inline-block;
+	float: left;
+	width: 150px;
 }
