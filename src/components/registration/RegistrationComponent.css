@@ -1,0 +1,19 @@
+
+.form_wrapper{
+    border: solid 2px rgb(22, 21, 102);
+    border-radius: 20px;
+    /* background-color:rgb(170, 144, 144); */
+    padding: 100px;
+}
+.form_field{
+ padding: 10px;
+}
+
+input {
+padding: 5px;
+box-shadow: 3px 3px 5px rgb(50, 58, 68);
+}
+
+label {
+    padding: 2px;
+}
