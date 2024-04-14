@@ -16,7 +16,7 @@ const NewRegisterComponent: React.FC = () => {
   });
 
   const createUserDataMutation = useMutation((newUserData: UserData) =>
-    axios.post("http://localhost:8080/login_form", newUserData)
+    axios.post("http://localhost:8080/reg_form", newUserData)
   );
 
   const handleChange = (

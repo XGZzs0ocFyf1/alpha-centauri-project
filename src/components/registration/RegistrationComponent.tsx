@@ -19,7 +19,7 @@ const RegistrationComponent: React.FC = () => {
   });
 
   const createContactMutation = useMutation((newContact: Contact) =>
-    axios.post("http://localhost:8080/reg_form", newContact)
+    axios.post("http://localhost:8080/login_form", newContact)
   );
 
   const handleChange = (
